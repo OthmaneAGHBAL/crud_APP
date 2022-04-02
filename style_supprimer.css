@@ -1,0 +1,28 @@
+form input{
+    display: flex;
+    margin: auto;
+    margin:20px auto;
+}
+.text-area{
+    background-color: rgba(25, 12, 29, 0.445);
+    padding: 3px 8px;
+    border: none;
+    border-radius: 5px;
+    color : #ffc107;
+    font-size: 1.4em;
+}
+.btn{
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    background-color:darkorange;
+    color: whitesmoke;
+    transition: 0.7s ease;
+    box-shadow: 5px 4px 9px rgb(58, 13, 100) ;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgba(25, 12, 29, 0.445);
+    transform: scale(1.1);
+}
